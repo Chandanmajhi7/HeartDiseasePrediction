@@ -20,3 +20,34 @@ To run the Heart Assistant web application, follow these steps:
 
    ```bash
    git clone https://github.com/Chandanmajhi7/HeartDiseasePrediction.git
+
+2. **Navigate to the Project Directory**
+
+```bash
+   cd HeartDiseasePrediction
+
+3. **Install the Required Packages**
+
+   
+
+You can install the required packages using pip. It's recommended to use a virtual environment.
+
+bash
+Copy code
+pip install -r requirements.txt
+Run the Application
+
+Ensure you have the model/heart_disease_model.sav file in the specified directory. Then run the Streamlit app.
+
+bash
+Copy code
+streamlit run main.py
+Usage
+Open the Heart Assistant application in your browser.
+Enter the required health metrics in the input fields.
+Click on the Heart Disease Test Result button to get the prediction.
+The result will be displayed indicating whether the user might have heart disease or not.
+Files
+main.py: The main application file that contains the Streamlit code for the web app.
+model/heart_disease_model.sav: The serialized machine learning model used for prediction.
+requirements.txt: A file listing the required Python packages for the project.
