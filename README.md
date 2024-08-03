@@ -40,12 +40,14 @@ To run the Heart Assistant web application, follow these steps:
    Ensure you have the model/heart_disease_model.sav file in the specified directory. Then run the Streamlit app.
    ```bash
    streamlit run main.py
-Usage
-Open the Heart Assistant application in your browser.
-Enter the required health metrics in the input fields.
-Click on the Heart Disease Test Result button to get the prediction.
-The result will be displayed indicating whether the user might have heart disease or not.
-Files
-main.py: The main application file that contains the Streamlit code for the web app.
-model/heart_disease_model.sav: The serialized machine learning model used for prediction.
-requirements.txt: A file listing the required Python packages for the project.
+   
+## Usage
+1. Open the Heart Assistant application in your browser.
+2. Enter the required health metrics in the input fields.
+3. Click on the Heart Disease Test Result button to get the prediction.
+4. The result will be displayed indicating whether the user might have heart disease or not.
+   
+## Files
+- **main.py**: The main application file that contains the Streamlit code for the web app.
+- **model/heart_disease_model.sav**: The serialized machine learning model used for prediction.
+- **requirements.txt**: A file listing the required Python packages for the project.
