@@ -23,25 +23,23 @@ To run the Heart Assistant web application, follow these steps:
 
 2. **Navigate to the Project Directory**
 
-```bash
+   ```bash
    cd HeartDiseasePrediction
+
 
 3. **Install the Required Packages**
 
+   You can install the required packages using pip. It's recommended to use a virtual environment.
+
+   ```bash
+   pip install -r requirements.txt
+
    
+4. **Run the Application**
 
-You can install the required packages using pip. It's recommended to use a virtual environment.
-
-bash
-Copy code
-pip install -r requirements.txt
-Run the Application
-
-Ensure you have the model/heart_disease_model.sav file in the specified directory. Then run the Streamlit app.
-
-bash
-Copy code
-streamlit run main.py
+   Ensure you have the model/heart_disease_model.sav file in the specified directory. Then run the Streamlit app.
+   ```bash
+   streamlit run main.py
 Usage
 Open the Heart Assistant application in your browser.
 Enter the required health metrics in the input fields.
