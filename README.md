@@ -1,4 +1,6 @@
 # Heart Assistant
+is a Streamlit web application designed for predicting the likelihood of heart disease based on user inputs. The application leverages a machine learning model to analyze various health metrics and provide a prediction on whether an individual might be suffering from heart disease.
+
 
 **Heart Assistant** is a Streamlit web application designed for predicting the likelihood of heart disease based on user inputs. The application leverages a machine learning model to analyze various health metrics and provide a prediction on whether an individual might be suffering from heart disease.
 
