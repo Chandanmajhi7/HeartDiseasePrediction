@@ -19,4 +19,4 @@ To run the Heart Assistant web application, follow these steps:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/heart-assistant.git
+   git clone https://github.com/Chandanmajhi7/HeartDiseasePrediction.git
